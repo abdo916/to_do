@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: darksalmon;
+  font-family:  Arial, sans-serif;
+
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+.listItems {
+  background: white;
+}
+.listItems p.cond {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.listItems span.tasks,
+span.check {
+  width: 30%;
+  padding: 0;
+}
+
+.listItems span#tasks {
+  
+}
+
+.listItems span.task {
+  display: block;
+  padding: 0;
+}
+
+
+
+.listItems span.math,
+.listItems span.english,
+.listItems span.science
+ {
+   width: 10%;
+}
+
+span.check input {
+  margin: 0px 33px;
+}
+
+
+.listItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0 ;
+  font-size: 20px;
+  border: 1px solid darkslategrey;
+}
+.listItems span.icon {
+  color: darkred;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.listItems span.title {
+  background: deepskyblue;
+  color: rgb(48, 41, 41)
+}
+
+form input[type='submit'] {
+  background: deepskyblue;
+  border: 1px solid darkslategray;
+  cursor: pointer;
+  color: rgb(48, 41, 41);
+}
+
+.listItems span.name,
+form input[type='text'] {
+  width:  50%;
+}
+
+.listItems span.age{
+  width:  10%;
+}
+form input[type='number'] {
+  width:  40%;
+}
+
+
+ 
+
+
+.listItems span.action,
+form input[type='submit'] {
+  width:  10%;
+}
+
+
+form input {
+  padding: 10px;
+  background: #e1e1e1;
+  border: transparent ;
+  border: 1px solid darkslategrey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
