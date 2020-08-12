@@ -6,9 +6,9 @@ import AddList from './component/addItem/add'
 class App extends Component {
   state = {
     items : [
-      {id:1, name:'bola', age: 22},
-      {id:2, name:'lola', age: 25},
-      {id:3, name:'foola', age: 28},
+      {id:1, name:'Ahmed', age: 22},
+      {id:2, name:'Ibrahim', age: 25},
+      {id:3, name:'Aly', age: 28},
     ]
   }
 
